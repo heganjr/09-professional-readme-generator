@@ -938,12 +938,27 @@ limitations under the License.`;
 function generateMarkdown(data) {
   return `# ${data.title}
 
+${renderDescriptionSection(data.description)}
+
+${renderTableOfContentsSection()}
+
+${renderInstallationSection()}
+
+${renderUsageSection()}
+
+${renderCreditsSection()}
+
+${renderContributionSection()}
+
+${renderTestSection()}
+
 ${renderLicenseBadge(data.license)}
 
 ${renderLicenseSection(data.license, data.fullName, data.title)}
 
 
-`;
+`
+;
 }
 // can do callbacks to functions
 // handing info from data.licence question
