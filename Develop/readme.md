@@ -1,10 +1,55 @@
-# test
+# Insert project name here
 
 ![MIT](https://img.shields.io/badge/licence-MIT-brightgreen)
 
+## Description
+
+Insert here
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Tests](#tests)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+
+npm -i
+
+## Usage
+
+Insert purpose here 
+
+### Screenshot
+![screenshot](paste image url here)
+
+## Tests
+
+npm test
+
+## How to Contribute
+
+contributions are not possible
+
+If there are issues you can contact me here hello@ or 0424240450
+
+---
+
+## Credits
+
+insert your name here
+
+---
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
 MIT License
 
-  Copyright (c) [2021] [Jacob Hegan]
+  Copyright (c) [2021] [Insert your full name here]
   
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
@@ -24,4 +69,4 @@ MIT License
   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   SOFTWARE.
 
-
+---
