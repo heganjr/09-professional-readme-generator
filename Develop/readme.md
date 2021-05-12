@@ -4,7 +4,7 @@
 
 ## Description
 
-Description here
+Description goes here
 
 ## Table of Contents
 
@@ -39,7 +39,7 @@ If there are issues you can contact me here test@email.com.au or 555 555 555
 
 ## Credits
 
-Bob Smith
+insert your name here
 
 ---
 
