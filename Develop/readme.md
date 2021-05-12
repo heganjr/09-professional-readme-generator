@@ -1,10 +1,10 @@
-# Insert project name here
+# Project A
 
 ![MIT](https://img.shields.io/badge/licence-MIT-brightgreen)
 
 ## Description
 
-Insert here
+Description here
 
 ## Table of Contents
 
@@ -33,13 +33,13 @@ npm test
 
 contributions are not possible
 
-If there are issues you can contact me here hello@ or 0424240450
+If there are issues you can contact me here test@email.com.au or 555 555 555
 
 ---
 
 ## Credits
 
-insert your name here
+Bob Smith
 
 ---
 
@@ -49,7 +49,7 @@ insert your name here
 
 MIT License
 
-  Copyright (c) [2021] [Insert your full name here]
+  Copyright (c) [2021] [Jacob Hegan]
   
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
