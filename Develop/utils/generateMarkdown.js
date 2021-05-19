@@ -2,19 +2,19 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license === "MIT") {
-    return `![${license}](https://img.shields.io/badge/licence-MIT-brightgreen)`;
+    return `[![${license}](https://img.shields.io/badge/licence-MIT-brightgreen)](${renderLicenseLink(license)})`;
   }
 
   if (license === "GNU") {
-    return `![${license}](https://img.shields.io/badge/licence-GNU-green)`;
+    return `[![${license}](https://img.shields.io/badge/licence-GNU-green)](${renderLicenseLink(license)})`;
   }
 
   if (license === "Apache") {
-    return `![${license}](https://img.shields.io/badge/licence-Apache%202-blue)`;
+    return `[![${license}](https://img.shields.io/badge/licence-Apache%202-blue)](${renderLicenseLink(license)})`;
   }
 
   if (license === "BSD-3") {
-    return `![${license}](https://img.shields.io/badge/licence-BSD%203-yellowgreen)`;
+    return `[![${license}](https://img.shields.io/badge/licence-BSD%203-yellowgreen)](${renderLicenseLink(license)})`;
    } else {
    return ``;
   }
@@ -24,19 +24,19 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === "MIT") {
-    return `[${license}](https://choosealicense.com/licenses/mit/)`;
+    return `https://choosealicense.com/licenses/mit/`;
   }
 
   if (license === "GNU") {
-    return `[${license}](https://choosealicense.com/licenses/gpl-3.0/)`;
+    return `https://choosealicense.com/licenses/gpl-3.0/`;
   }
 
   if (license === "Apache") {
-    return `[${license}](https://choosealicense.com/licenses/apache-2.0/)`;
+    return `https://choosealicense.com/licenses/apache-2.0`;
   }
 
   if (license === "BSD-3") {
-    return `[${license}](https://choosealicense.com/licenses/bsd-3-clause/)`;
+    return `https://choosealicense.com/licenses/bsd-3-clause/`;
    } else {
    return ``;
 }}
